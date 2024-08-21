@@ -13,7 +13,7 @@ protected:
 
 public:
     CanBo(string hoTen, int tuoi, string gioiTinh, string diaChi);
-    virtual ~CanBo() {}
+    virtual ~CanBo() {};
 
     virtual void hienThiThongTin() const = 0;
     string getHoTen() const;

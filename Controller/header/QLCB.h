@@ -3,13 +3,12 @@
 #include <iostream>
 
 #include <vector>
-#include "../Model/CanBo.h"
-#include "../Model/CongNhan.h"
-#include "../Model/KySu.h"
-#include "../Model/NhanVien.h"
-#include "../View/View.h"
+#include "Model/header/CongNhan.h"
+#include "Model/header/KySu.h"
+#include "Model/header/NhanVien.h"
+#include "View/header/View.h"
 
-
+  
 class QLCB {
 private:
     vector<CanBo*> danhSachCanBo;

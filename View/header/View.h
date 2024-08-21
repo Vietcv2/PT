@@ -1,7 +1,7 @@
 #ifndef VIEW_H
 #define VIEW_H
 
-#include "../Model/CanBo.h"
+#include "Model/header/CanBo.h"
 
 class View {
 public:

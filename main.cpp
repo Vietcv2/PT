@@ -1,4 +1,4 @@
-#include "Controller/QLCB.h"
+#include "Controller/header/QLCB.h"
 
 int main() {
     QLCB qlcb;
